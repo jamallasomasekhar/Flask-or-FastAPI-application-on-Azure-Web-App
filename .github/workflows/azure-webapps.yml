@@ -38,6 +38,7 @@ jobs:
           path: |
             release.zip
             !venv/
+<<<<<<< HEAD
 
   deploy:
     runs-on: ubuntu-latest
@@ -56,10 +57,16 @@ jobs:
         run: unzip release.zip
 
       
+=======
+>>>>>>> c9a24a78343924ac83df82d843a58aff42bdbf39
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
           app-name: 'flaskapp'
           slot-name: 'production'
+<<<<<<< HEAD
           publish-profile: ${{ secrets.AzureAppService_PublishProfile_ff203858123f4ed89e2fd903d5069372 }}
+=======
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_ff203858123f4ed89e2fd903d5069372 }}
+>>>>>>> c9a24a78343924ac83df82d843a58aff42bdbf39
