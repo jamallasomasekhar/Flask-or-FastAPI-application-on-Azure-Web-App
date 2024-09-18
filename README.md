@@ -93,3 +93,7 @@ Download the Azure Web App's publish profile from the Azure Portal.
 Add the publish profile as a GitHub secret:
 Go to your repository settings.
 Add a new secret named AZURE_WEBAPP_PUBLISH_PROFILE.
+![image](https://github.com/user-attachments/assets/60da73b3-63e7-4ffd-b846-23aa0aaa838b)
+
+![image](https://github.com/user-attachments/assets/66f34c66-a788-4bbb-9504-b669c81c51ec)
+
